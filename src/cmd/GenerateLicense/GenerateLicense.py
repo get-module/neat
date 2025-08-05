@@ -68,6 +68,7 @@ def GenerateLicense(*args):
                 color.red("IMPORTANT: use the key that's in the parentheses when calling\n") +
                 color.cyan("- ".join(f"{d['name']} ({d['key']})\n" for d in licenses))
         )
+            return
     if len(args) == 3 or len(args) == 4:
         selected_license = args[0]
         authors = args[1]
