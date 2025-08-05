@@ -1,0 +1,9 @@
+# exclude ide specific things
+.vscode
+.idea
+
+# python specific
+.venv
+
+# general catch-alls
+*.env
