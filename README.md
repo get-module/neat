@@ -16,7 +16,7 @@ Neat is a powerful, no-BS CLI for tidying and maintaining modern codebases. It p
 * 🧰 Utility scripts to make dev work faster and safer
 
 
-⚡## ️ Installation
+## ⚡ ️ Installation
 ```bash
 # Coming soon:
 npm install -g neat-cli
