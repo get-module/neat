@@ -13,10 +13,10 @@ Use this tool to keep your codebase fast, readable, and clean.
 module tidy [scope] [--fix] [--verbose]
 
 # Examples
-module tidy all             # Lint and format all languages
-module tidy py              # Only tidy Python code
-module tidy go --fix        # Auto-fix Go formatting issues
-module tidy ts --verbose    # Show full output while linting TS
+neat tidy all             # Lint and format all languages
+neat tidy py              # Only tidy Python code
+neat tidy go --fix        # Auto-fix Go formatting issues
+neatmodule tidy ts --verbose    # Show full output while linting TS
 ```
 
 | lang           | actions performed                          |
